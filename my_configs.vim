@@ -28,6 +28,9 @@ map <leader>f :Ag <C-R>=expand("<cword>")<CR><CR>
 " Enable line numbers
 set number
 
+" go to defintion with gd
+nnoremap gd <C-]>
+
 " Look for tags in current dir or up a folder until we get to /
 set tags=./tags;,tags;
 
